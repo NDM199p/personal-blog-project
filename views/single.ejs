@@ -1,0 +1,32 @@
+<!-- Page Header -->
+<header class="masthead" style="background-image: url('<%= post.image %>')">
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <div class="site-heading">
+          <h1><%= post.title %></h1>
+          <span class="subheading"><%= post.smallDesc %></span>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- Post Content -->
+<article>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <div class="row">
+          <div class="col">
+            <i style="text-align: right" class="text-end w-100">Create On</i>
+          </div>
+        </div>
+        <p><%- post.desc %></p>
+      </div>
+    </div>
+  </div>
+</article>
+
+<hr />

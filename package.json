@@ -1,0 +1,32 @@
+{
+  "name": "nodejs-express",
+  "version": "1.0.0",
+  "description": "Node js express framework",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon yarn start",
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Soarez/express-ejs-layouts.git"
+  },
+  "author": "pankaj",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cookie-parser": "^1.4.3",
+    "ejs": "^3.1.8",
+    "express": "^4.16.2",
+    "express-ejs-layouts": "^2.5.0",
+    "express-session": "^1.15.6",
+    "moment": "^2.20.1",
+    "mongoose": "^6.3.4",
+    "multer": "^1.4.5-lts.1",
+    "slugify": "^1.2.9"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
