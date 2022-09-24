@@ -7,7 +7,7 @@ mongoose.connect(
   "mongodb+srv://admin:admin@cluster0.ausoi.mongodb.net/myDatabase?retryWrites=true&w=majority"
 );
 
-app.use("/assests", express.static(__dirname + "/public"));
+app.use("/assests", express.static(__dirname + "/public")); //fdsufdsjfndkfd
 app.use(expressLayouts);
 
 app.use((req, res, next) => {
